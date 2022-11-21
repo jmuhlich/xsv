@@ -1,6 +1,6 @@
 [package]
 name = "xsv"
-version = "0.13.0"  #:version
+version = "0.13.0-csv11"  #:version
 authors = ["Andrew Gallant <jamslam@gmail.com>"]
 description = "A high performance CSV command line toolkit."
 documentation = "https://burntsushi.net/rustdoc/xsv/"
@@ -30,7 +30,7 @@ opt-level = 3
 [dependencies]
 byteorder = "1"
 crossbeam-channel = "0.2.4"
-csv = "1"
+csv = "1.1"
 csv-index = "0.1.5"
 docopt = "1"
 filetime = "0.1"
